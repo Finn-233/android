@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="horizontal"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/music_cover"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/yinyue" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/music_name"
+            style="@style/MusicTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="20dp"
+            android:text="@string/textview" />
+
+        <TextView
+            android:id="@+id/singer"
+            style="@style/MusicTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/textview" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/music_time"
+        style="@style/MusicTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/textview" />
+</LinearLayout>

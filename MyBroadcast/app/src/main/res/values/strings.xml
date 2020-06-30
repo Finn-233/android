@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">音乐</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">Text_View</string>
+    <string name="login">Sign in</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="telphone">Telphone</string>
+    <string name="denglu">Login</string>
+    <string name="zhuce">Sign up</string>
+    <string name="register">register</string>
+</resources>

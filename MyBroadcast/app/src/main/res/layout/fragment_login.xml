@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:padding="30dp"
+    tools:context=".LoginFragment.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                android:text="@string/login"
+                android:textColor="#ffffff"
+                android:textSize="50sp" />
+
+            <ImageView
+                android:background="@drawable/button_bg"
+                android:id="@+id/adduser"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/zhuce" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/usern"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/edit_bg"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="10dp"
+            android:hint="@string/username"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/passw"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_bg"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <CheckBox
+            android:id="@+id/rember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="记住密码"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/loginbut"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/denglu"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</FrameLayout>
